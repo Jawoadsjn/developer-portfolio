@@ -21,7 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 180px;
+    margin: 0 180px; 
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -47,17 +47,69 @@ nav a {
 
 
 /* header related css */
+
 .header{
     background: #FFF8F3;
+    /* background-image: url(../images/header_bg.png); */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+
+        
 }
-.banner{
-    padding: 30px 30px 180px 180px;
+
+.banner {
+    padding: 30px 30px 30px 180px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
+}
+.banner-content{
+    max-width: 500px;
+}
+.picture{
+    width: 400px;
+    background-image: url(../images/header_bg.png);
 
 }
-.banner img {
-    width: 584px;
-    /* height: 676px; */
-    /* flex-shrink: 0; */
+.hi {
+    font-size: 45;
+    color: 181818;
+    margin-bottom: 0px;
+
+}
+.title {
+    font-size: 55px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.me {
+    font-size: 18px;
+    font-weight: 400px; 
+}
+
+/* main section styles */
+
+
+/* about section styles */
+
+.about {
+    padding: 130px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 130px 0px;
+}
+.section-tital {
+color: var#757575;
+text-align: center;
+font-size: 38px;
+font-weight: 400;
+}
+.section-disc {
+color: black;
+text-align: center;
+font-size: 18px;
 }
