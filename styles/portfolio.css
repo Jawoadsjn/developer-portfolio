@@ -132,7 +132,12 @@ font-size: 18px;
     font-size: 12px;
 }
 
-/* What I Do disc */
+
+/* What I Do section */
+
 #what-i-do-disc {
     padding: 30px 150px;
+}
+.container{
+    display: flex;
 }
