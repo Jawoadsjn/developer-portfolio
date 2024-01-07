@@ -92,15 +92,18 @@ nav a {
 }
 
 /* main section styles */
-
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 
 .about {
-    padding: 130px;
+    padding: 230px;
     font-size: 18px;
-    font-weight: 400;
-    margin: 130px 0px;
+    font-weight: 10px;
+    margin: 10px 0px;
 }
 .section-tital {
 color: var#757575;
@@ -112,4 +115,15 @@ font-weight: 400;
 color: black;
 text-align: center;
 font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-dIsc {
+    padding: 110px;
+   
 }
