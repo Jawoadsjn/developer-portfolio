@@ -189,6 +189,23 @@ main section {
     font-weight: 700;
 }
 
-.resume-column-title {
+.resume-container {
     display: flex;
+    gap: 30px;
+    /* margin: 0px 60px; */
+    margin: 100px;
+    padding-left: 90px;
+}
+.resume-items-disc{
+    color: #757575;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.resume-items-title, .resume-items-inst{
+    color: #030303;
+    font-size: 20px;
+}
+.download-cv {
+    text-align: center;
 }
