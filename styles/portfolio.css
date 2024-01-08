@@ -196,24 +196,50 @@ main section {
     margin: 100px;
     padding-left: 90px;
 }
-.resume-items-disc{
+
+.resume-items-disc {
     color: #757575;
     font-size: 12px;
     font-weight: 700;
 
 }
-.resume-items-title, .resume-items-inst{
+
+.resume-items-title,
+.resume-items-inst {
     color: #030303;
     font-size: 20px;
 }
+
 .download-cv {
     text-align: center;
 }
 
 /* footer column */
-footer{
+footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-link a{
+    margin-right: 20px;
+}
+
+.contact,
+input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 5px 20px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
