@@ -13,9 +13,8 @@ body {
     border: 0;
     color: white;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    padding: 18px 35px 19px 36px;
+    padding: 18px 30px 19px 36px;
 }
 
 /* Nav related CSS */
@@ -58,7 +57,9 @@ nav a {
     background: #FFF8F3;
     /* background-image: url(../images/header_bg.png); */
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+
 
 
 
@@ -79,7 +80,7 @@ nav a {
 
 .picture {
     width: 400px;
-    background-image: url(../images/header_bg.png);
+    /* background-image: url('../images/header_bg.png'); */
 
 }
 
@@ -242,4 +243,7 @@ textarea {
     background: #FFF;
     border: 0;
     width: 100%;
+}
+.fa-solid{
+    color: #030303;
 }
